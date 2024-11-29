@@ -1,0 +1,5 @@
+CREATE TABLE vendegek (
+	azon INT(2) AUTO_INCREMENT NOT NULL,
+	nev VARCHAR(30) NOT NULL,
+	email VARCHAR(25) NOT NULL,
+	telefon VARCHAR(15);
