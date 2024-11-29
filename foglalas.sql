@@ -4,3 +4,6 @@ CREATE TABLE foglalas (
 	erkezes DATE NOT NULL,
 	tavozas DATE NOT NULL,
 	ar INT NOT NULL;
+	FOREIGN KEY(vendeg_azon) REFERENCES vendegek(azon)
+	ON DELETE CASCADE ON UPDATE CASCADE
+	);
